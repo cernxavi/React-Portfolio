@@ -1,0 +1,24 @@
+section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  section img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
